@@ -13,4 +13,7 @@ Arquivos do projeto "Trabalhando com Machine Learning na Prática no Azure ML"
 10. O deploy falhou com a mensagem de erro: "ResourceOperationFailure: Resource provider [N/A] isn't registered with Subscription [N/A]."
 11. Pesquisando na base de conhecimento da Microsoft, apliquei a solução recomendada que consistia em registrar dois provedores de recursos na minha assinatura do Azure, a saber: Microsoft.Cdn e Microsoft.PolicyInsights (https://learn.microsoft.com/en-us/answers/questions/2129910/resource-provider-(n-a)-isnt-registered-with-subsc) 
 12. Após registrar os provedores de recursos, o deploy foi concluído com sucesso
-13. 
+13. Fiz o teste do modelo utilizando o código JSON
+14. A saída obtida foi [
+  324.0899815604736
+]
